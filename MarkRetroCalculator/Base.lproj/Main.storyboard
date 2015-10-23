@@ -269,7 +269,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1om-kc-7hl">
                                 <rect key="frame" x="250" y="194" width="100" height="33"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTT-YB-1uR">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTT-YB-1uR">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="S47-PK-YFE"/>
