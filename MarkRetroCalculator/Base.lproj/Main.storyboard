@@ -266,10 +266,27 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1om-kc-7hl">
+                                <rect key="frame" x="250" y="194" width="100" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTT-YB-1uR">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="S47-PK-YFE"/>
+                                            <constraint firstAttribute="height" constant="33" id="nrs-Xm-bSZ"/>
+                                        </constraints>
+                                        <state key="normal" image="clear"/>
+                                        <connections>
+                                            <action selector="clearEverything:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IKm-z2-yti"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="70b-cI-b5h" firstAttribute="centerY" secondItem="n10-za-hlf" secondAttribute="centerY" constant="65" id="425-ck-tnv"/>
+                            <constraint firstItem="n10-za-hlf" firstAttribute="centerY" secondItem="1om-kc-7hl" secondAttribute="centerY" constant="130" id="7hz-oK-P94"/>
                             <constraint firstItem="Tbm-2j-u79" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AOf-vH-vH9"/>
                             <constraint firstItem="Mcp-Fy-nid" firstAttribute="top" secondItem="n10-za-hlf" secondAttribute="top" constant="47" id="EY7-C9-iHG"/>
                             <constraint firstItem="n10-za-hlf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F3m-IV-TJc"/>
@@ -279,6 +296,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tbm-2j-u79" secondAttribute="bottom" id="UpF-bW-RKj"/>
                             <constraint firstAttribute="trailing" secondItem="fxp-LD-KMc" secondAttribute="trailing" id="UrO-wv-qcd"/>
                             <constraint firstItem="70b-cI-b5h" firstAttribute="centerX" secondItem="n10-za-hlf" secondAttribute="centerX" id="ej5-cg-wXA"/>
+                            <constraint firstItem="1om-kc-7hl" firstAttribute="centerX" secondItem="n10-za-hlf" secondAttribute="centerX" id="f2D-J1-35k"/>
                             <constraint firstAttribute="trailing" secondItem="Tbm-2j-u79" secondAttribute="trailing" id="fSy-JT-uJL"/>
                             <constraint firstItem="fxp-LD-KMc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fjh-Su-W0z"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fxp-LD-KMc" secondAttribute="bottom" id="n8x-D1-boN"/>
@@ -306,6 +324,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
